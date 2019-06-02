@@ -1,0 +1,53 @@
+package com.aarav.wbx.core.addnode.servlet;
+
+import javax.jcr.Node;
+import javax.jcr.Repository;
+import javax.jcr.Session;
+import javax.jcr.SimpleCredentials;
+import javax.servlet.Servlet;
+
+import org.apache.jackrabbit.commons.JcrUtils;
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.SlingHttpServletResponse;
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.api.servlets.HttpConstants;
+import org.apache.sling.api.servlets.SlingAllMethodsServlet;
+import org.osgi.framework.Constants;
+import org.osgi.service.component.annotations.Component;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.day.cq.commons.jcr.JcrUtil;
+
+@Component(service = Servlet.class, property = { Constants.SERVICE_DESCRIPTION + "=To create node in Page",
+		"sling.servlet.methods=" + HttpConstants.METHOD_POST, "sling.servlet.paths=" + "/bin/createnode",
+		"sling.servlet.extensions=" + "txt"
+
+})
+
+public class CreateNodeInPage extends SlingAllMethodsServlet {
+
+	private final Logger log = LoggerFactory.getLogger(this.getClass());
+
+	@Override
+	public void doPost(SlingHttpServletRequest req, SlingHttpServletResponse res){
+		log.info("--- Creating node 'aarav' thru JCR api ---");
+		String rootPagePath = "/content/aarav/fr";
+		String nodeName = "alka";
+		//Get repository
+		Repository repository = JcrUtils.getRepository("http://localhost:9502/crx/server");
+	   //Create a Session
+	   javax.jcr.Session session = repository.login( new SimpleCredentials("admin", "admin".toCharArray())); 
+		
+	    Node pageNode = JcrUtil.createPath(rootPagePath + "/" + nodeName, "cq:Page", session);
+	    Node pageContentNode = pageNode.addNode("jcr:content");
+	    pageContentNode.setPrimaryType("cq:PageContent");
+	    pageContentNode.setProperty("sling:resourceType", "my/resource/type");
+		session.save();
+		
+		
+		log.info("--- In doPost of create Node---- before try---");
+		
+	 }
+
+}

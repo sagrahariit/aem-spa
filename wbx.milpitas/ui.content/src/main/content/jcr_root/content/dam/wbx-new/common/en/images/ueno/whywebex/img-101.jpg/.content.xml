@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="72ad2cfa-41bd-4b89-9d30-a46af4df9da2">
+    <jcr:content
+        cq:lastModified="{Date}2019-05-28T22:31:43.339-04:00"
+        cq:lastModifiedBy="qifa"
+        cq:lastReplicated="{Date}2019-05-28T22:33:05.519-04:00"
+        cq:lastReplicatedBy="qifa"
+        cq:lastReplicationAction="Activate"
+        cq:name="img-101.jpg"
+        cq:parentPath="/content/dam/wbx-new/common/en/images/ueno/whywebex"
+        dam:assetState="processed"
+        dam:copiedAt="{Date}2019-05-28T22:31:44.452-04:00"
+        dam:parentAssetID="1cb6523c-9349-4adc-ba88-64be30648904"
+        dam:relativePath="wbx-new/common/en/images/ueno/whywebex/img-101.jpg"
+        jcr:lastModified="{Date}2019-05-31T17:03:34.110-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2019-05-31T17:03:33.067-07:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="yes"
+            dam:sha1="1efecaf05e93fb42b675f7d537e8fcdb55fbae89"
+            dam:size="{Long}88133"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2019-05-28T22:31:44.366-04:00"
+            exif:PixelXDimension="{Long}590"
+            exif:PixelYDimension="{Long}820"
+            jcr:lastModified="{Date}2019-05-31T17:03:33.987-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}820"
+            tiff:ImageWidth="{Long}590"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

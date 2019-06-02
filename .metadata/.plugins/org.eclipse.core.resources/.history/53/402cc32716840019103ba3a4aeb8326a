@@ -1,0 +1,5 @@
+package com.aarav.wbx.core.allpage.data;
+
+public class PageBean {
+
+}

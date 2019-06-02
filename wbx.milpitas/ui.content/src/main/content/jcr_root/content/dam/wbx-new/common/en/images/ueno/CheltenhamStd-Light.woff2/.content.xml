@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="7516f1db-f333-4eb6-8360-629df2331819">
+    <jcr:content
+        cq:lastReplicated="{Date}2019-05-31T02:26:18.808-04:00"
+        cq:lastReplicatedBy="qifa"
+        cq:lastReplicationAction="Activate"
+        dam:assetState="processed"
+        dam:relativePath="wbx-new/common/en/images/ueno/CheltenhamStd-Light.woff2"
+        jcr:lastModified="{Date}2019-05-31T17:03:31.387-07:00"
+        jcr:lastModifiedBy="qifa"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2019-05-31T17:03:31.267-07:00"
+            dam:sha1="493f6ae284710b932431a7f00c154d6409d8bdb1"
+            dam:size="{Long}15256"
+            dc:format="application/octet-stream"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

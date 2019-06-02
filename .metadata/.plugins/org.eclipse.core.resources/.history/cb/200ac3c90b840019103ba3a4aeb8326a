@@ -1,0 +1,6 @@
+<div data-sly-use.childnode="com.aarav.wbx.core.read.subpages.ReadSubPages">
+<div data-sly-list="${childnode.menuitems.listChildren}">
+	${item.menulabel}
+    ${item.menulink}
+
+</div>

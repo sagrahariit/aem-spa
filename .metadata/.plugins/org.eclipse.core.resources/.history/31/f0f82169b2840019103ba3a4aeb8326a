@@ -1,0 +1,16 @@
+package com.aarav.wbx.core.addnode.servlet;
+
+import javax.servlet.Servlet;
+
+import org.osgi.service.component.annotations.Component;
+
+@Component(service = Servlet.class,
+
+		
+		
+		
+		
+		)
+public class CreateNodeInPage {
+
+}

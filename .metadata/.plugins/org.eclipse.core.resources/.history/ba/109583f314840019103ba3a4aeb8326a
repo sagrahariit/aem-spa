@@ -1,0 +1,6 @@
+
+<sly data-sly-use.sample="com.aarav.wbx.core.allpage.data.SampleSlingModelImpl">
+<!-- /*<img src= "${sample.logoImage}" alt = "${sample.logoAltText}"> */-->
+<h2>Data coming from Sling model....</h2>
+<h4>${sample.message}</h4>
+</sly>

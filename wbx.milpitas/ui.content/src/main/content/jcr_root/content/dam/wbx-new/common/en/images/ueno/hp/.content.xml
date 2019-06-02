@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="hp">
+        <folderThumbnail/>
+    </jcr:content>
+    <img-2.jpg/>
+    <img-3.jpg/>
+    <img-70.png/>
+    <img-75.png/>
+    <img-76.png/>
+    <img-77.png/>
+    <img-78.png/>
+    <img-83.jpg/>
+    <img-84.jpg/>
+    <img-85.jpg/>
+    <img-86.jpg/>
+    <img-95.jpg/>
+    <img-96.png/>
+    <img-97.png/>
+    <img-98.png/>
+    <img-99.png/>
+    <img-103.png/>
+    <img-1.jpg/>
+    <img-109.png/>
+    <img-106.png/>
+    <img-112.png/>
+</jcr:root>

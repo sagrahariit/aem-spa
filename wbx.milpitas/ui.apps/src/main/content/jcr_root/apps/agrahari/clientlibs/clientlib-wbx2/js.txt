@@ -1,0 +1,4 @@
+js/wbx2-home-banner.js
+js/wbx2-home-slider.js
+js/wbx2-apps-downloads.js
+js/wbx2-buyflow-dr.js

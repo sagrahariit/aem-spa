@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="1a6e99d3-5904-4ccf-a2fd-fc95d17f774c">
+    <jcr:content
+        cq:lastModified="{Date}2019-05-28T22:31:39.654-04:00"
+        cq:lastModifiedBy="qifa"
+        cq:lastReplicated="{Date}2019-05-28T22:33:05.519-04:00"
+        cq:lastReplicatedBy="qifa"
+        cq:lastReplicationAction="Activate"
+        cq:name="img-76.png"
+        cq:parentPath="/content/dam/wbx-new/common/en/images/ueno/whywebex"
+        dam:assetState="processed"
+        dam:copiedAt="{Date}2019-05-28T22:31:39.733-04:00"
+        dam:parentAssetID="b3511610-cf43-498b-bc3e-0677657450b1"
+        dam:relativePath="wbx-new/common/en/images/ueno/whywebex/img-76.png"
+        jcr:lastModified="{Date}2019-05-31T17:03:34.822-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}32"
+            dam:extracted="{Date}2019-05-31T17:03:34.214-07:00"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="yes"
+            dam:sha1="ee8059dec17cf09de367840cfeae159aeb263094"
+            dam:size="{Long}104355"
+            dc:format="image/png"
+            dc:modified="{Date}2019-05-28T22:31:40.069-04:00"
+            jcr:lastModified="{Date}2019-05-31T17:03:34.676-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}302"
+            tiff:ImageWidth="{Long}506"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,5 @@
+package com.aarav.wbx.core.model.servlet.get;
+
+public class GetSlingServletModel {
+
+}

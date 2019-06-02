@@ -1,0 +1,21 @@
+package com.aarav.wbx.core.serialization.deserialization.pageproperty;
+
+import javax.servlet.Servlet;
+
+import org.apache.sling.api.servlets.HttpConstants;
+import org.osgi.framework.Constants;
+import org.osgi.service.component.annotations.Component;
+
+@Component(service = Servlet.class, 
+
+		property = {
+				Constants.SERVICE_DESCRIPTION + "=Shailesh Serialization and Deserialization servlet to pull page data in json",
+				"sling.servlet.methods="+ HttpConstants.METHOD_GET,
+				"sling.servlet.path="+ "/bin/shailesh",
+				"sling.servlet.extensions="+"text"
+				
+		}
+		)
+public class GsonServlet {
+
+}

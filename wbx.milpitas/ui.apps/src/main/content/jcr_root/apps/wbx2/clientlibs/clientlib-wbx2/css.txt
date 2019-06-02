@@ -1,0 +1,3 @@
+css/wbx2-home-ueno-common.css
+css/wbx2-home-body.css
+css/wbx2-home-banner.css

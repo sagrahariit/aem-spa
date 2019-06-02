@@ -1,0 +1,89 @@
+package com.aarav.wbx.core.allpage.data;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+import javax.inject.Inject;
+import javax.inject.Named;
+
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.api.resource.ResourceResolver;
+import org.apache.sling.models.annotations.Default;
+import org.apache.sling.models.annotations.DefaultInjectionStrategy;
+import org.apache.sling.models.annotations.Exporter;
+import org.apache.sling.models.annotations.ExporterOption;
+import org.apache.sling.models.annotations.Model;
+
+import com.day.cq.wcm.api.Page;
+import javax.annotation.PostConstruct;
+import javax.inject.Inject;
+
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.models.annotations.Exporter;
+import org.apache.sling.models.annotations.ExporterOption;
+import org.apache.sling.models.annotations.Model;
+import org.apache.sling.models.annotations.Source;
+import org.apache.sling.models.annotations.Via;
+import org.apache.sling.models.annotations.injectorspecific.SlingObject;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import com.day.cq.wcm.api.designer.Style;
+
+@Model(adaptables = SlingHttpServletRequest.class, resourceType="FSDAssignmentsSampleProject/components/content/sample")
+@Exporter(name = "jackson", extensions = "json", options = { @ExporterOption(name = "SerializationFeature.WRITE_DATES_AS_TIMESTAMPS", value = "true") })
+public class PullPageDataJson implements SampleSlingModel{
+
+    Logger logger = LoggerFactory.getLogger(this.getClass());
+    private String message;
+    private String logoImage;
+    private String logoAltText;
+    
+    @SlingObject
+    private SlingHttpServletRequest request;
+    
+    @Inject @Source("script-bindings")
+ private Style currentStyle;
+    
+    @Inject @Via("resource")
+    private String firstName;
+   
+    @Inject  @Via("resource")
+    private String lastName;
+ 
+    @Inject  @Via("resource")
+    private String email;
+    
+   
+    @PostConstruct
+    protected void postConstruct() {
+     logger.info("inside post construct");
+        message ="This is sample project created for demonstrate sling model assignments...";
+        if (request != null) {
+            this.message += "Request Path: "+request.getRequestPathInfo().getResourcePath()+"\n";
+        }
+        message += "First Name: "+ firstName +" \n";
+        message += "Last Name: "+ lastName + "\n";
+        message += "Email Id: "+ email + "\n";
+        logoImage = currentStyle.get("logoImage",String.class); 
+        logoAltText = currentStyle.get("logoAltText",String.class); 
+    }
+    @Override
+    public String getMessage() {
+        return message;
+    }
+    @Override
+    public String getFirstName() {
+        return firstName;
+    }
+    @Override
+    public String getEmail() {
+        return firstName;
+    }
+    @Override
+    public String getLastName() {
+        return lastName;
+    }
+   
+}

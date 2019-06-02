@@ -1,0 +1,450 @@
+    .PageLayout--pageLayout--3fS-B.PageLayout--big--1rqLM {
+        overflow: hidden;
+    }
+    .PageLayout--pageLayout--3fS-B.PageLayout--big--1rqLM a {
+        text-decoration: none;
+    }
+     
+    /* section hero */
+    .HomepageHero--homepageHero__buttons--i9QgT .Button--button--wGVl3+.Button--button--wGVl3 {
+        margin-left: 19px;
+    }
+    .HomepageHero--homepageHero__tabInner--2GYBL,
+    .HomepageHero--homepageHero__tabHeading--24KZ8,
+    .HomepageHero--homepageHero__tabCopy--2gKI3 {
+        text-align: inherit;
+    }
+    .HomepageHero--homepageHero__tabCopy--2gKI3 {
+        color: #000000;
+    }
+    .HomepageHero--homepageHero__tabs--3nURN .ArrowButton--button--288Qw {
+        display: none;
+    }
+    .HomepageHero--homepageHero__children--D3AKl .ArrowButton--button--288Qw svg {
+        top: 2px;
+    }
+    @media (max-width: 1050px) and (min-width: 960px) {
+        .HomepageHero--homepageHero__tabs--3nURN > button:nth-child(3) .HomepageHero--homepageHero__tabCopy--2gKI3 {
+            width: calc(100% + 10px);
+            margin-left: -5x;
+        }
+    }
+    @media (max-width: 959px) {
+        .HomepageHero--homepageHero__buttons--i9QgT .Button--blue--3At0v {
+            display: none;
+        }
+        .HomepageHero--homepageHero__buttons--i9QgT .Button--blue--3At0v+.Button--button--wGVl3 {
+            margin-left: 0;
+        }
+        .HomepageHero--homepageHero__tabHeading--24KZ8 {
+            font-weight: 400;
+        }
+    }
+
+    /* section HeadingBlock */
+    .HeadingBlock--headingBlock__heading--3Tvfc,
+    .HeadingBlock--headingBlock__copy--1_CRF {
+        text-align: inherit;
+    }
+
+    /* section Products */
+    @media (min-width: 768px) {
+        .Products--products__more--2qjgC {
+            margin-top: 0;
+        }
+    }
+    @media (max-width: 1023px) and (min-width: 768px) {
+        .Products--products__list--1yJEo {
+            width: 76%;
+        }
+        .Products--products__sidebar--3BMkx {
+            width: 24%;
+            padding-right: 0;
+            padding-left: 30px;
+        }
+    }
+
+    /* section QuoteBlock */
+    .QuoteBlock--quoteBlock__copy--36X8E {
+        font-family: CheltenhamStd;
+        font-weight: 300;
+    }
+    .QuoteBlock--quoteBlock__copy--36X8E:after, 
+    .QuoteBlock--quoteBlock__copy--36X8E:before {
+        font-size: 80px;
+    }
+
+    /* section FlipStories */
+    .FlipStories--flip--8-Icr {
+        background: #fff;
+    }
+    .FlipStories--flip__heading--1KJhj,
+    .FlipStories--flip__copy--qny_W {
+        text-align: inherit;
+    }
+    .Story--story__heading--1eRoF {
+        font-weight: 300;
+    }
+    .Story--story__copy--3W_8_ {
+        opacity: 0.6;
+    }
+    .FlipStories--flip__controls--2HR3E {
+        margin-top: 20px;
+    }
+    .FlipStories--flip__current--1wkzu {
+        font-weight: 300;
+    }
+    .ArrowButton--button--288Qw.ArrowButton--big--1vbk7 svg {
+        width: 35%;
+        height: 35%;
+    }
+    .FlipStories--flip--8-Icr .ArrowButton--button--288Qw.ArrowButton--gray--1KG5p polyline {
+        stroke: #000;
+    }
+
+    /* section HowTo */
+    .HowTo--how--2Fn5M {
+        background-color: #0f1c21;
+    }
+    .HowTo--how--2Fn5M .Card--background--ed2UP .Card--card__inner--2g0f7 {
+        padding: 20px 40px;
+    }
+    .HowTo--how--2Fn5M .Card--card__heading--1TLJC {
+        padding-right: 0;
+    }
+
+    /* section Pricing */
+    .Table--table__copy--zbtuG {
+        max-width: 310px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Table--table__item--2V2_C h3,
+    .Table--table__item--2V2_C p,
+    .Table--table__item--2V2_C a {
+        text-align: inherit;
+    }
+    @media (min-width:768px) {
+        .Table--table__copy--zbtuG {
+            height: 58px;
+        }
+    }
+    @media (max-width:1355px) and (min-width:1024px) {
+        .Table--table__copy--zbtuG {
+            height: 87px;
+        }
+    }
+
+
+    /* font-size */
+    @media (min-width:992px) {
+        .HomepageHero--homepageHero__heading--ozkWp {
+            font-size: 52px;
+        }
+        .Button--button--wGVl3.Button--big--2Jsp_ {
+            font-size: 19px;
+        }
+        .HomepageHero--homepageHero__tabHeading--24KZ8 {
+            font-size: 22px;
+        }
+        .HomepageHero--homepageHero__tabCopy--2gKI3 {
+            font-size: 15px;
+        }
+        .Item--item__copy--17zjT {
+            font-size: 18px;
+        }
+        .Item--item__name--u-5QW, 
+        .Item--item__text--2snce {
+            font-size: 15px;
+        }
+
+        .HeadingBlock--headingBlock__copy--1_CRF,
+        .Block--block__copy--2QV7Q {
+            font-size: 24px;
+        }
+        .Button--button--wGVl3.Button--medium--2wxLy,
+        .LinkButton--link--1DgYM {
+            font-size: 15px;
+        }
+
+        .Product--product__heading--1hbOx {
+            font-size: 26px;
+        }
+        .Product--product__copy--1Zy-r {
+            font-size: 18px;
+        }
+        .Products--products__subheading--1_C14 {
+            font-size: 22px;
+        }
+
+        .QuoteBlock--quoteBlock__copy--36X8E {
+            font-size: 42px;
+            line-height: 56px;
+        }
+        .QuoteBlock--quoteBlock__name---Cxd4,
+        .QuoteBlock--quoteBlock__position--1wdQM {
+            font-size: 18px;
+        }
+        .QuoteBlock--quoteBlock__heading--yxDuH {
+            font-size: 26px;
+        }
+
+        .FlipStories--flip__copy--qny_W {
+            font-size: 24px;
+        }
+        .Story--story__subheading--vNPJP {
+            font-size: 13px;
+        }
+        .Story--story__heading--1eRoF {
+            font-size: 26px;
+        }
+        .Story--story__copy--3W_8_,
+        .FlipStories--flip__current--1wkzu {
+            font-size: 18px;
+        }
+
+        .Card--card__label--1xvaB {
+            font-size: 13px;
+        }
+        .Card--card__heading--1TLJC {
+            font-size: 26px;
+        }
+
+        .Plans--plans__subheading--1TnYh,
+        .Plans--plans__label--2QlSP {
+            font-size: 24px;
+        }
+        .Table--table__best--1EmIx {
+            font-size: 12px;
+        }
+        .Table--big--2A7d2 .Table--table__name--1emn8 {
+            font-size: 34px;
+        }
+        .Table--big--2A7d2 .Table--table__copy--zbtuG {
+            font-size: 18px;
+        }
+        .Table--big--2A7d2 .Table--table__price--ZDpho {
+            font-size: 52px;
+        }
+        .Table--big--2A7d2 .Table--table__label--24dl4 {
+            font-size: 18px;
+        }
+        .Table--table__heading--2I69f {
+            font-size: 26px;
+        }
+        .Table--table__footer--20jEA .Button--button--wGVl3.Button--medium--2wxLy {
+            font-size: 16px;
+        }
+
+        /* margin / padding */
+        .PageLayout--pageLayout--3fS-B.PageLayout--big--1rqLM {
+            padding-top: 158px;
+        }
+        .HomepageHero--homepageHero__buttons--i9QgT {
+            margin-top: 42px;
+        }
+        .HomepageHero--homepageHero__children--D3AKl {
+            margin-top: 80px;
+        }
+        .Item--item--MdbvS {
+            padding-top: 178px;
+        }
+        .Item--item--MdbvS:nth-child(1) .Item--item__media--qE3Ja {
+            margin-top: -12px;
+        }
+        .Item--item--MdbvS:nth-child(2) .Item--item__media--qE3Ja {
+            margin-top: -62px;
+        }
+        .Item--item--MdbvS:nth-child(3) .Item--item__media--qE3Ja {
+            margin-top: -32px;
+        }
+        .Item--item--MdbvS:nth-child(4) .Item--item__media--qE3Ja {
+            margin-top: -90px;
+        }
+    }
+    @media (min-width:1430px) {
+        .HeadingBlock--headingBlock__heading--3Tvfc,
+        .Block--block__heading--RJF1A,
+        .FlipStories--flip__heading--1KJhj,
+        .HowTo--how__heading--POALn,
+        .Plans--plans__heading--1QDKf {
+            font-size: 48px;
+        }
+        .Item--item__heading--25rSS {
+            font-size: 45px;
+        }
+    }
+
+    @media (min-width: 560px) {
+        .QuoteBlock--quoteBlock__logos--3SwaR {
+            margin-top: 10px;
+        }
+    }
+    @media (min-width:768px) {
+        .Products--products--tzrc2 {
+            padding-bottom: 30px;
+        }
+        .QuoteBlock--quoteBlock--1y6MJ {
+            padding: 120px 0 120px;
+        }
+        .QuoteBlock--quoteBlock__wrapper--3wkZ4 {
+            margin-bottom: 70px;
+        } 
+        .QuoteBlock--quoteBlock__copy--36X8E:before {
+            margin-bottom: -25px;
+        }
+        .Plans--plans__header--1qH4N {
+            margin-bottom: 125px;
+        }
+    }
+    @media (min-width:992px) {
+        .HeadingBlock--headingBlock__heading--3Tvfc {
+            margin-bottom: 14px;
+        }
+        .QuoteBlock--quoteBlock__copy--36X8E:after, 
+        .QuoteBlock--quoteBlock__copy--36X8E:before {
+            margin-bottom: 0;
+        }
+        .QuoteBlock--quoteBlock__copy--36X8E:after {
+            margin-top: 30px;
+        }
+        .HowTo--how--2Fn5M + .QuoteBlock--quoteBlock--1y6MJ .QuoteBlock--quoteBlock__logos--3SwaR {
+            margin-top: 30px;
+        }
+        .HowTo--how--2Fn5M + .QuoteBlock--quoteBlock--1y6MJ {
+            padding-bottom: 105px;
+        }
+        .Plans--plans__subheading--1TnYh {
+            margin-top: 10px;
+        }
+        .Table--table__heading--2I69f {
+            margin-bottom: 20px;
+        }
+    }
+    @media (min-width: 1024px) {
+        .QuoteBlock--quoteBlock__author--2KGxq {
+            margin-top: -50px;
+        }
+        .HowTo--how--2Fn5M {
+            padding: 130px 0 140px;
+        }
+        .FlipStories--flip__desktopCards--1yp30 {
+            margin-top: 80px;
+        }
+    }
+    @media (min-width:1170px) {
+        .HeadingBlock--headingBlock--XrDBx.HeadingBlock--big--2rccb {
+            padding-top: 160px;
+            padding-bottom: 160px;
+        }
+    }
+    @media (min-width: 1280px) {
+        .Products--products--tzrc2 {
+            padding-top: 150px;
+        }
+    }
+
+    
+    @media (max-width:767px) {
+        :root {
+            --scale-font: 1
+        }
+
+        .HomepageHero--homepageHero__tabHeading--24KZ8 {
+            font-size: calc(16px*var(--scale-font));
+        }
+        .HomepageHero--homepageHero__heading--ozkWp {
+            margin-bottom: 20px;
+        }
+        .Item--item__copy--17zjT {
+            font-size: calc(16px*var(--scale-font));
+        }
+        .Product--product__heading--1hbOx {
+            font-size: calc(22px*var(--scale-font));
+        }
+        .LinkButton--link--1DgYM {
+            font-size: calc(16px*var(--scale-font));
+        }
+        .QuoteBlock--quoteBlock__copy--36X8E:after, .QuoteBlock--quoteBlock__copy--36X8E:before {
+            font-size: 60px;
+        }
+        .QuoteBlock--quoteBlock__copy--36X8E:before {
+            margin-bottom: -20px;
+        }
+        .QuoteBlock--quoteBlock__copy--36X8E:after {
+            margin-top: 10px;
+            margin-bottom: 0;
+        }
+        .QuoteBlock--quoteBlock__copy--36X8E {
+            font-size: calc(34px*var(--scale-font));
+        }
+
+        .FlipStories--flip__heading--1KJhj, 
+        .FlipStories--flip__copy--qny_W {
+            text-align: left;
+        }
+        .FlipStories--flip__controls--2HR3E {
+            justify-content: left;
+        }
+        .FlipStories--flip__desktopCards--1yp30 {
+            margin-top: 35px;
+        }
+        .FlipStories--flip__controls--2HR3E {
+            margin-top: 0;
+        }
+        .Story--story__subheading--vNPJP {
+            font-size: calc(10px*var(--scale-font))
+        }
+        .Story--story__heading--1eRoF {
+            font-size: calc(18px*var(--scale-font));
+        }
+        .Story--story__copy--3W_8_ {
+            font-size: calc(15px*var(--scale-font));
+        }
+
+        .Card--card__label--1xvaB {
+            font-size: calc(10px*var(--scale-font));
+        }
+        .Card--card__heading--1TLJC {
+            font-size: calc(18px*var(--scale-font));
+            line-height: 26px;
+        }
+        
+        .HowTo--how__carousel--31JoY {
+            margin-top: 30px;
+        }
+        .HowTo--how--2Fn5M .Card--background--ed2UP .Card--card__inner--2g0f7 {
+            padding: 14px 30px 5px;
+        }
+        
+        .Table--table__best--1EmIx {
+            font-size: calc(12px*var(--scale-font));
+        }
+        .Table--table__item--2V2_C {
+            padding: 50px 35px 40px;
+        }
+        .Table--table__item--2V2_C:first-child {
+            padding-bottom: 50px;
+        }
+        .Table--big--2A7d2 .Table--table__name--1emn8 {
+            margin-bottom: 10px;
+        }
+        .Table--table__copy--zbtuG {
+            margin-bottom: 20px;
+        }
+        .Table--big--2A7d2 .Table--table__label--24dl4 {
+            font-size: calc(18px*var(--scale-font));
+        }
+        .Plans--plans--3dUor .Button--button--wGVl3.Button--medium--2wxLy {
+            font-size: calc(16px*var(--scale-font));
+        }
+        .Table--table__heading--2I69f {
+            margin-bottom: 25px;
+        }
+        .Table--table__footer--20jEA .Button--button--wGVl3.Button--medium--2wxLy {
+            padding: 0 18px;
+            height: 36px;
+            line-height: 34px;
+        }
+
+    }

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1559336351861_0" label="Java Main Sources" name="Java Main Sources">
+<item elementID="=wbx.milpitas.core/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=wbx.milpitas.it.launcher/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=wbx.milpitas.it.tests/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=wbx.milpitas.ui.apps/src\/main\/content\/jcr_root" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=wbx.milpitas.ui.content/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=wbx.milpitas.ui.content/src\/main\/content\/jcr_root" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=acs-aem-samples-bundle/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=acs-aem-samples-bundle/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=acs-aem-samples-content/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=acs-aem-samples-content/src\/main\/content\/jcr_root" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1559336351881_1" label="Java Test Sources" name="Java Test Sources">
+<item elementID="=wbx.milpitas.core/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=wbx.milpitas.it.launcher/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=wbx.milpitas.it.tests/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=wbx.milpitas.ui.apps/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=wbx.milpitas.ui.content/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=acs-aem-samples-content/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1559336391308_3" label="wbx.milpitas" name="wbx.milpitas">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/wbx.milpitas.core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/acs-aem-samples-content" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/wbx.milpitas.it.launcher" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/wbx.milpitas.ui.apps" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/acs-aem-samples-bundle" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/wbx.milpitas.ui.content" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/wbx.milpitas" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/wbx.milpitas.it.tests" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/acs-aem-samples" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1559336353417_2" label="Window Working Set" name="Aggregate for window 1559336353416"/>
+</workingSetManager>

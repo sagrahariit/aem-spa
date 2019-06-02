@@ -1,0 +1,5 @@
+package com.aarav.wbx.core.serialization.deserialization.pageproperty;
+
+public class GsonServlet {
+
+}

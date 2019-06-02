@@ -1,0 +1,141 @@
+package com.aarav.wbx.core.test;
+
+import java.util.Date;
+import java.util.jar.Attributes.Name;
+
+import javax.inject.Inject;
+import javax.inject.Named;
+
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.models.annotations.DefaultInjectionStrategy;
+import org.apache.sling.models.annotations.Exporter;
+import org.apache.sling.models.annotations.ExporterOption;
+import org.apache.sling.models.annotations.Model;
+
+//import com.fasterxml.jackson.annotation.JsonProperty;
+
+@Model(adaptables=Resource.class, resourceType= {"weretail/components/structure/page", "aarav/components/structure/page"}, defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
+@Exporter(name = "jackson", extensions="json", options = { @ExporterOption(name = "SerializationFeature.WRITE_DATES_AS_TIMESTAMPS", value = "true") })
+public class PullJsonModelTest2 {
+	
+	@Inject
+	@Named("jcr:title")
+	private String title;
+	
+	@Inject
+	@Named("cq:lastModified")
+	private String cqlastModified;
+	
+	@Inject
+	@Named("cq:lastRolledout")
+	private Date cqlastRolledout;
+	
+	@Inject
+	@Named("jcr:mixinTypes")
+	private Name[] mixinTypes;
+	
+	@Inject
+	private String shailesh;
+	
+	@Inject
+	private String alka;
+	
+	@Inject
+	private String helloworld;
+	
+	@Inject
+	private String aarav;
+
+	public String getTitle() {
+		return title;
+	}
+
+	public String getCqlastModified() {
+		return cqlastModified;
+	}
+
+	public Date getCqlastRolledout() {
+		return cqlastRolledout;
+	}
+
+	public Name[] getMixinTypes() {
+		return mixinTypes;
+	}
+
+	public String getShailesh() {
+		return shailesh;
+	}
+
+	
+	public String getHelloWorld() {
+		return helloworld;
+	}
+/*	
+	@JsonProperty
+	public String aarav(){
+		return "I am not going to display";
+	}
+	
+	@JsonProperty
+	public String hello(){
+		return "HELLO";
+	}
+*/	
+	public String getAlka(){
+		return alka;
+	}
+	
+	}
+
+
+/*
+ 
+[{
+	"pagePath": "xyz",
+	"pageName": "test",
+	"tagAttributes": [{
+			"tagPath": "testTagPath",
+			"tagName": "testTagName"
+
+		},
+		{
+			"tagPath": "testTagPath2",
+			"tagName": "testTagName2"
+		}
+	]
+},
+{
+	"pagePath": "xyz",
+	"pageName": "test",
+	"tagAttributes": [{
+			"tagPath": "testTagPath",
+			"tagName": "testTagName"
+
+		},
+		{
+			"tagPath": "testTagPath2",
+			"tagName": "testTagName2"
+		}
+	]
+}
+]
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

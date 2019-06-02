@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="1" auto-publish-time="0" configuration-id="/Servers/Adobe Experience Manager at localhost-config" hostname="localhost" id="Adobe Experience Manager at localhost" launchpad.bundle.org.apache.sling.tooling.support.install.version="1.0.4" launchpad.bundle.org.apache.sling.tooling.support.source.version="1.0.4" launchpad.contextPath="/" launchpad.debugPort="1111" launchpad.installLocally="false" launchpad.password="admin" launchpad.port="9502" launchpad.username="admin" name="Adobe Experience Manager at localhost" runtime-id="Adobe Experience Manager" server-type="org.apache.sling.ide.launchpadServer" server-type-id="org.apache.sling.ide.launchpadServer" start-timeout="30" stop-timeout="15" timestamp="11">
+    <list key="modules" value0="wbx.milpitas.ui.apps::org.apache.sling.ide.contentModuleFactory:wbx.milpitas.ui.apps::sling.content::1.0" value1="wbx.milpitas.ui.content::org.apache.sling.ide.contentModuleFactory:wbx.milpitas.ui.content::sling.content::1.0" value2="wbx.milpitas.core::org.apache.sling.ide.bundleModuleFactory:wbx.milpitas.core::sling.bundle::1.0"/>
+  </server>
+</servers>

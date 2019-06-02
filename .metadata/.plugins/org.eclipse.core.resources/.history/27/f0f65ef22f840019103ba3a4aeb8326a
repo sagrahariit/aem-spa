@@ -1,0 +1,60 @@
+package com.aarav.wbx.core.model.servlet.get;
+
+import java.util.Calendar;
+
+import javax.inject.Named;
+
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.models.annotations.Default;
+import org.apache.sling.models.annotations.DefaultInjectionStrategy;
+import org.apache.sling.models.annotations.Model;
+import org.apache.sling.models.annotations.Optional;
+import org.apache.sling.models.annotations.Required;
+import org.apache.sling.models.annotations.Via;
+import org.apache.sling.models.annotations.injectorspecific.Self;
+import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
+
+@Model(adaptables=SlingHttpServletRequest.class, defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
+public class GetSlingServletModel {
+
+	@Self
+	private SlingHttpServletRequest request;
+	
+	@Self @Via("resource")
+	private Resource resource;
+	
+	@ValueMapValue
+	@Named("jcr:title")
+	@Required
+	private String title;
+	
+	@ValueMapValue
+	@Optional
+	private String pageTitle;
+	
+	@ValueMapValue
+	@Optional
+	private String navTitle;
+	
+	@ValueMapValue
+	@Named("jcr:created")
+	private Calendar createdAt;
+	
+	@ValueMapValue
+	@Named("jcr:description")
+	@Default(values = "No Descriptioon Provided Shaielsh")
+	private String description;
+	
+	@ValueMapValue
+	@Default(booleanValues = false)
+	boolean navRoot;
+	
+	
+	
+	
+	
+	
+	
+	
+}

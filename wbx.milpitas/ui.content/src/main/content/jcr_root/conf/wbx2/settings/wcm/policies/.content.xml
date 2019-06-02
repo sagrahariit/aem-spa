@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <wcm jcr:primaryType="nt:unstructured">
+        <foundation jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <policy_110294931532415
+                        jcr:description="This template is base template for WBX2, it will have once layout container from General and rest of the components will be pulled from WBX2 group"
+                        jcr:lastModified="{Date}2019-05-30T21:20:22.102-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WBX2 Home Page Default"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:WBX2]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_110294931532415>
+                </responsivegrid>
+            </components>
+        </foundation>
+    </wcm>
+</jcr:root>

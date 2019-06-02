@@ -1,0 +1,36 @@
+package com.aarav.wbx.core.addnode.servlet;
+
+import javax.servlet.Servlet;
+
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.SlingHttpServletResponse;
+import org.apache.sling.api.resource.ResourceResolver;
+import org.apache.sling.api.servlets.HttpConstants;
+import org.apache.sling.api.servlets.SlingAllMethodsServlet;
+import org.osgi.framework.Constants;
+import org.osgi.service.component.annotations.Component;
+import org.osgi.service.component.annotations.Reference;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+@Component(service = Servlet.class,
+	property = {
+				Constants.SERVICE_DESCRIPTION+ "=To create node in Page",
+				"sling.servlet.methods="+ HttpConstants.METHOD_POST,
+				"sling.servlet.paths="+"/bin/createnode",
+				"sling.servlet.extensions="+"txt"
+					
+			}
+	)
+
+public class CreateNodeInPage extends SlingAllMethodsServlet {
+	
+	private final Logger log = LoggerFactory.getLogger(this.getClass());
+	
+	public void doPost(SlingHttpServletRequest req, SlingHttpServletResponse res) {
+		@Reference
+		ResourceResolver resolver;
+		
+	 }
+
+}

@@ -1,0 +1,108 @@
+package com.aarav.wbx.core.test;
+
+import javax.inject.Inject;
+import javax.inject.Named;
+
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.models.annotations.DefaultInjectionStrategy;
+import org.apache.sling.models.annotations.Exporter;
+import org.apache.sling.models.annotations.ExporterOption;
+import org.apache.sling.models.annotations.Model;
+
+@Model(adaptables = Resource.class, resourceType = { "weretail/components/content/heroimage" }, defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
+@Exporter(name = "jackson", extensions = "json", options = { @ExporterOption(name = "SerializationFeature.WRITE_DATES_AS_TIMESTAMPS", value = "true") })
+public class PullJsonModel {
+	
+	@Inject
+	String title;
+	
+	@Inject
+	String heading;
+	
+	@Inject
+	String buttonLabel;
+	
+	@Inject
+	String fileReference;
+	
+	@Inject
+	String shailesh;
+	
+	@Inject
+	@Named("sling:resourceType")
+	String slingresourceType;
+	
+	@Inject
+	@Named("jcr:lastModifiedBy")
+	String lastModifiedBy;
+	
+	public String getSlingresourceType() {
+		return slingresourceType;
+	}
+
+
+	public void setSlingresourceType(String slingresourceType) {
+		this.slingresourceType = slingresourceType;
+	}
+
+
+	public String getLastModifiedBy() {
+		return lastModifiedBy;
+	}
+
+
+	public void setLastModifiedBy(String lastModifiedBy) {
+		this.lastModifiedBy = lastModifiedBy;
+	}
+
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+
+	public void setHeading(String heading) {
+		this.heading = heading;
+	}
+
+
+	public void setButtonLabel(String buttonLabel) {
+		this.buttonLabel = buttonLabel;
+	}
+
+
+	public void setFileReference(String fileReference) {
+		this.fileReference = fileReference;
+	}
+
+
+	public void setShailesh(String shailesh) {
+		this.shailesh = shailesh;
+	}
+
+
+	public String getTitle() {
+		return title;
+	}
+	
+	
+	public String getHeading() {
+		return heading;
+	}
+	
+	public String getFileReference() {
+		return fileReference;
+	}
+	
+	public String getShailesh() {
+		return shailesh;
+	}
+	
+	public String getButtonLabel() {
+		return buttonLabel;
+	}
+	
+	public String getSlingResourceType() {
+		return slingresourceType;
+	}
+}

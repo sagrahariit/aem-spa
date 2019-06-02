@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.apache.sling.api.SlingHttpServletRequest"/>
+<fullyQualifiedTypeName name="org.apache.sling.models.annotations.DefaultInjectionStrategy"/>
+<fullyQualifiedTypeName name="org.apache.sling.models.annotations.Optional"/>
+<fullyQualifiedTypeName name="javax.inject.Named"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="org.apache.sling.models.annotations.injectorspecific.ValueMapValue"/>
+<fullyQualifiedTypeName name="org.apache.sling.models.annotations.Default"/>
+<fullyQualifiedTypeName name="com.day.cq.search.QueryBuilder"/>
+<fullyQualifiedTypeName name="org.apache.sling.models.annotations.injectorspecific.OSGiService"/>
+<fullyQualifiedTypeName name="org.apache.sling.models.annotations.injectorspecific.SlingObject"/>
+<fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
+<fullyQualifiedTypeName name="com.day.cq.wcm.api.PageManager"/>
+<fullyQualifiedTypeName name="com.day.cq.search.PredicateGroup"/>
+<fullyQualifiedTypeName name="org.apache.jackrabbit.rmi.server.ServerSession"/>
+<fullyQualifiedTypeName name="com.day.cq.search.Query"/>
+<fullyQualifiedTypeName name="com.day.cq.search.result.SearchResult"/>
+<fullyQualifiedTypeName name="org.apache.jackrabbit.oak.commons.StringUtils"/>
+<fullyQualifiedTypeName name="org.apache.lucene.queryparser.flexible.core.util.StringUtils"/>
+<fullyQualifiedTypeName name="com.aarav.wbx.core.model.servlet.get.GetSlingServletModel"/>
+<fullyQualifiedTypeName name="javax.jcr.Session"/>
+<fullyQualifiedTypeName name="java.util.UUID"/>
+<fullyQualifiedTypeName name="javax.servlet.Servlet"/>
+<fullyQualifiedTypeName name="org.apache.sling.api.servlets.SlingSafeMethodsServlet"/>
+<fullyQualifiedTypeName name="com.day.cq.wcm.api.Page"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.day.cq.tagging.Tag"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.aarav.wbx.core.serialization.deserialization.pageproperty.TagAttribute"/>
+<fullyQualifiedTypeName name="com.google.gson.GsonBuilder"/>
+<fullyQualifiedTypeName name="com.aarav.wbx.core.serialization.deserialization.pageproperty.PageModel"/>
+<fullyQualifiedTypeName name="org.osgi.framework.Constants"/>
+<fullyQualifiedTypeName name="org.apache.sling.api.servlets.HttpConstants"/>
+<fullyQualifiedTypeName name="org.apache.sling.api.servlets.SlingAllMethodsServlet"/>
+<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="org.apache.sling.api.resource.Resource"/>
+<fullyQualifiedTypeName name="javax.jcr.Node"/>
+</qualifiedTypeNameHistroy>
